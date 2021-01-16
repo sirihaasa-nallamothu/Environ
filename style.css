@@ -1,0 +1,91 @@
+body {
+  color:#5c5858;
+  font-family:Courier, MS Courier New;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+
+}
+
+.title{
+  font-size:45px;
+  margin-top:50px;
+}
+
+.imagelogo{
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  object-fit:cover;
+}
+
+.imagediv{
+  padding-top:100px;
+  padding-left: 160px;
+}
+.formborder{
+  border:#5c5858;
+  width:300px;
+  height:285px;
+  border-style: solid;
+  border-width: thick;
+   padding-top: 40px;
+}
+
+.usernameplace{
+  border-color:#5c5858;
+  border-radius:10px;
+  height:25px;
+  padding-left:10px;
+   height:25px;
+   border:2px solid;
+  width:200px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color:#5c5858;
+  font-family:Courier, MS Courier New;
+  font-size:20px;
+ 
+  
+}
+.passwordplace{
+  border-color:#5c5858;
+  border-radius:10px;
+   padding-left:10px;
+   height:25px;
+    width:200px;
+  padding-left:10px;
+  border:2px solid;
+}
+
+.loginbutton{
+border-color:#5c5858;
+  width:150px;
+  height:25px;
+  background-color:white;
+  font-family:Courier, MS Courier New;
+  font-size:15px; 
+ border:2px solid;
+   cursor: pointer;
+}
+
+.loginbutton:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+input[type="text"]{
+    font-size:20px;
+     font-family:Courier, MS Courier New;
+     font:bold;
+}
+
+.createaccount{
+  font-size:20px;
+  color:#5c5858;
+  font-family:Courier, MS Courier New;
+}
+
+.createunderline{
+color:#5c5858;
+}

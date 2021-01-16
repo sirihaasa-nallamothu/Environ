@@ -1,0 +1,72 @@
+body {
+  color:#5c5858;
+  font-family:Courier, MS Courier New;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+
+}
+
+.accounttitle{
+  font-size:35px;
+  margin-top:50px;
+ 
+}
+.imagelogo{
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  object-fit:cover;
+}
+
+.imagediv{
+  padding-top:100px;
+  padding-left: 160px;
+}
+.formoverall{
+  border:#5c5858;
+  width:300px;
+  height:300px;
+  border-style: solid;
+  border-width: thick;
+   padding-top: 40px;
+   padding-left:60px;
+   margin-top:25px;
+   padding-right:50px;
+}
+
+
+.createaccount{
+  border-color:#5c5858;
+  width:150px;
+  height:25px;
+  background-color:white;
+  font-family:Courier, MS Courier New;
+  font-size:15px; 
+ border:2px solid;
+   cursor: pointer;
+   margin-left:15px;
+}
+
+.newaccountpassword,.newaccountusername,.confirmnewaccountpassword{
+  border-color:#5c5858;
+  border-radius:10px;
+   padding-left:10px;
+   height:25px;
+    width:200px;
+  padding-left:10px;
+  border:2px solid;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color:#5c5858;
+  font-family:Courier, MS Courier New;
+  font-size:20px;
+ 
+  
+}
+
+.createaccount:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

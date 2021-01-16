@@ -1,0 +1,137 @@
+h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:#5C5858;
+  text-align: center;
+}
+
+div{
+  display: flex;
+}
+
+.horizontal{
+  flex-direction: row;
+  justify-content: center;
+  width: 1425px;
+  height: 320px;
+  object-fit: cover;
+  text-align: center;
+}
+
+.logo{
+  width: 200px;
+  height: 130px;
+  object-fit:cover;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+}
+
+.imagearrange{
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.page{
+  color: #5C5858;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: white;
+  background-color: white;
+  padding: 5px;
+}
+
+nav{
+  margin-left: 56px;
+  margin-right: 20px;
+}
+
+p{
+  display: inline;
+  color: #5C5858;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.page:hover{ 
+  border: 2px solid #5C5858;
+  
+}
+h4{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:#5C5858;
+  text-align: center;
+}
+label{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:#5C5858;
+}
+
+.submitBtn{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #5C5858;
+  background-color: lightgrey;
+  border: 1px solid #5C5858;  
+}
+
+.bottomStrip{
+  padding: 30px;
+  background: #CAFFBF;
+}
+
+form{
+  text-align: center;
+}
+
+.upload{
+  margin-left: 70px;
+}
+
+.post{
+  border: 3px solid #5C5858;
+  padding-bottom:50px;
+  padding-top:15px;
+  padding-left:15px; padding-right:15px; background-color:white;
+  width: 150px;
+  height: 150px;
+  object-fit:cover;
+  margin-left: 50px;
+  margin-right: 100px;
+  margin-top:50px;
+}
+
+
+.format{
+  width: 150px;
+  height: 150px;
+  object-fit:cover;
+}
+
+
+.uploadimg,.submitBtn{
+border-color:#5c5858;
+  width:150px;
+  height:25px;
+  background-color:white;
+  font-family:Courier, MS Courier New;
+  font-size:15px; 
+ border:2px solid;
+   cursor: pointer;
+}
+.usernameplace{
+  border-color:#5c5858;
+  border-radius:10px;
+  height:20px;
+  padding-left:10px;
+   height:25px;
+   border:2px solid;
+  width:200px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color:#5c5858;
+  font-family:Courier, MS Courier New;
+  font-size:15px;
+ 
+  
+}
